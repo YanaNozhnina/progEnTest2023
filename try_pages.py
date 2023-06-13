@@ -17,6 +17,7 @@ st.write("Here you can choose 🚀 to try out an app \
 
 show_pages(
     [
+        Page("try_pages.py", "Home", ":house:"),
         Page("example_app/streamlit_app.py", "Give it a chance!", "🚀"),
         Page("example_app/easy_disposal.py", "Proper disposal is easy!", "🌞"),
         Page("example_app/glass.py", "Glass", "🥛"),
