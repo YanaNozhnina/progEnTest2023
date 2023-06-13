@@ -46,13 +46,13 @@ st.write("•	Social project «The Thing of Good» \
 st.subheader("Rule No.3 Sort the waste and hand it over for recycling")
 col9, col10, col11, col12 = st.columns(4)
 with col9:
-   st.image("pictures/Рисунок10.jpg", width = 200)
+   st.image("pictures/Рисунок10.jpg", width = 150)
 with col10:
-   st.image("pictures/Рисунок11.jpg", width = 200)
+   st.image("pictures/Рисунок11.jpg", width = 150)
 with col11:
-   st.image("pictures/Рисунок12.jpg", width = 200)
+   st.image("pictures/Рисунок12.jpg", width = 150)
 with col12:
-   st.image("pictures/Рисунок13.jpg", width = 200)
+   st.image("pictures/Рисунок13.jpg", width = 150)
 
 st.write("•	Industrial Charity organization «Aistenok» (Moskovskaya str., 25A).")
 st.write("•	The Center for social assistance to families \
