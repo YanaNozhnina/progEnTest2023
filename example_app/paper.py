@@ -5,7 +5,7 @@ import numpy as np
 from st_pages import add_page_title
 
 add_page_title()
-st.header("Your papers, please!")
+st.subheader("Your papers, please!")
 
 st.write("Paper makes up 23 percent of municipal solid waste (trash) \
          generated each year, more than any other material. \
