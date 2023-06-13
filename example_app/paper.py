@@ -31,7 +31,7 @@ df = pd.DataFrame(np.array([[56.850070937905315, 60.6438780875638],
                             [56.83473973233743, 60.623572764765655],
                             [56.832288865260466, 60.694096869352244]]),
     columns=['lat', 'lon'])
-st.map(df, zoom=16)
+st.map(df)
 
 st.subheader("«Uralvtorma»")
 st.write("Vysotsky Street, 11")
