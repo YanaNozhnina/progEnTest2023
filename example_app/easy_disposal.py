@@ -1,19 +1,21 @@
 import streamlit as st
 
+from st_pages import add_page_title
 
-st.header("Proper disposal is easy!")
+add_page_title()
+
 st.subheader("Rule No.1 Hazardous waste must be handed over")
 col1, col2, col3 = st.columns(3)
 
 with st.container():
     col1, col2, col3 = st.columns(3)
     with col1:
-       st.image("pictures/Рисунок1.jpg")  
+       st.image("pictures/Рисунок1.jpg", width = 100)  
     with col2:
-       st.image("pictures/Рисунок2.png")
-       st.image("pictures/Рисунок3.jpg")
+       st.image("pictures/Рисунок2.png", width = 75)
+       st.image("pictures/Рисунок3.jpg", width = 75)
     with col3:
-       st.image("pictures/Рисунок4.jpg")     
+       st.image("pictures/Рисунок4.jpg", width = 100)     
 
 with st.container():
     col1_2, col2_2, col3_2 = st.columns(3)
