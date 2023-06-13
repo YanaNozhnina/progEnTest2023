@@ -63,10 +63,29 @@ st.write("•	Charity clothing resale «Blagomarket» (Boris Yeltsin str., 3)")
 
 
 st.subheader("Rule No.4 Reduce the amount of household garbage")
-col9, col10, col11, col12 = st.columns(4)
-with col9:  
+col13, col14, col15 = st.columns(3)
+with col13:
+   st.image("pictures/Рисунок14.jpg")
+with col14:
+   st.image("pictures/Рисунок15.jpg")
+with col15:
+   st.image("pictures/Рисунок16.jpg")
+
+st.write("•	Bulky waste (furniture, building materials) should be disposed of in a separate container.")
+st.write("•	The packaging should be crumpled to reduce the volume.")
 
 
-#«» 
+st.subheader("Rule No.5 Do not create unnecessary garbage")
+col16, col17, col18 = st.columns(3)
+with col16:
+   st.image("pictures/Рисунок17.jpg")
+with col17:
+   st.image("pictures/Рисунок18.png")
+with col18:
+   st.image("pictures/Рисунок19.jpg")
 
+st.write("•	If you often go shopping, you should buy a reusable bag.")
+st.write("•	Do not use disposable tableware.")
+st.write("•	If possible, take food and drinks in your own container.")
 
+st.title("Take care of the planet!")
