@@ -8,12 +8,12 @@ from st_pages import Page, add_page_title, show_pages
 st.header("Responsible person's page :writing_hand:")
 
 st.subheader("More and more people recycle everyday.")
-st.subheader("This helps to reduce the need for landfill and more costly forms of disposal.\
+st.write("This helps to reduce the need for landfill and more costly forms of disposal.\
           Recycling also reduces the need for extracting (mining, quarrying and logging),\
           refining and processing raw materials all of which create substantial air and water pollution.")
-st.subheader("Here you can choose 🚀 to try out an app \
+st.write("Here you can **choose 🚀 to try out an app** \
          that offers ideas for reusing an old thing\
-          or you can read information about ways to dispose of different types of waste")
+          or you can read information about **ways to dispose of different types of waste**")
 
 show_pages(
     [
