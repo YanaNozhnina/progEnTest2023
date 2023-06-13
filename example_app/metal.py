@@ -28,17 +28,18 @@ st.subheader("Can I recycle aluminum foil?")
 st.write("Yes, aluminum foil can be recycled. Make sure to remove any food residue before recycling.")
 
 st.header("Local recycling")
-df = pd.DataFrame(np.array([[56.83908653272441, 60.664743161437244],
-                            [56.83864065320008, 60.64765229697966], 
-                            [56.83217829989505, 60.69366639157996]]),
+df = pd.DataFrame(np.array([[56.83195418409918, 60.6475336191012],
+                            [56.836824529445266, 60.69406200132057], 
+                            [56.83334795229576, 60.69680173978495]]),
     columns=['lat', 'lon'])
 st.map(df)
-st.subheader("«СтеклоВторЕкб»")
-st.write("улица Студенческая, д.49 Бокс №13")
-st.write("Тел. +7 (922) 181-30-81")
-st.subheader("Приём стеклопосуды")
-st.write("ул. Гагарина, 47")
-st.write("Тел. +7 (950) 190-38-56")
-st.subheader("Пункт приема вторсырья")
-st.write("ул. 40 Лет ВЛКСМ, 12")
-st.write("Тел. +7 (908) 636-43-17")
+
+st.write("Вишневая ул., 22Б")
+st.write("Тел. +7 (963) 853-12-66 \n")
+
+st.write("ул. 40-Летия Комсомола, 4")
+st.write("Тел. +7 (922) 206-84-28 \n")
+
+st.subheader("ООО «Втор-Элемент»")
+st.write("ул. Бетонщиков, 5")
+st.write("Тел. +7 (958) 137-87-48")
