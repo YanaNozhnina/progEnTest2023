@@ -5,7 +5,14 @@ import numpy as np
 
 from st_pages import Page, add_page_title, show_pages
 
-"## Declaring the pages in your app:"
+
+st.write("More and more people recycle everyday.")
+st.write("This helps to reduce the need for landfill and more costly forms of disposal.\
+          Recycling also reduces the need for extracting (mining, quarrying and logging),\
+          refining and processing raw materials all of which create substantial air and water pollution.")
+st.write("Here you can choose 🚀 to try out an app \
+         that offers ideas for reusing an old thing\
+          or you can read information about ways to dispose of different types of waste")
 
 show_pages(
     [
