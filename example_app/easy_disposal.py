@@ -27,10 +27,8 @@ with st.container():
        st.write("•	The company «Spetsavtokom».")
        st.write("•	The company LLC «TD Uralneftekhim» (Monterskaya str., 8).")
        st.write("•	ECOPROM LLC (Kosareva str., 91a).")
-
+       
     
-
-
 st.subheader("Rule No.2 Do not throw away clothes, shoes, toys, textiles, books")
 col4, col5, col6, col7, col8 = st.columns(5)
 
