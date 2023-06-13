@@ -10,7 +10,7 @@ st.write("We are producing over 380 million tons of plastic every year,\
           and some reports indicate that up to 50 percent of that is \
          for single-use purposes – utilized for just a few moments, \
          but on the planet for at least several hundred years.\
-          It’s estimated that more than 10 million tons of plastic is dumped into our oceans every year.")
+          It's estimated that more than 10 million tons of plastic is dumped into our oceans every year.")
 
 st.subheader("Can I recycle plastic bags, wraps and films?")
 st.write("These items are recyclable, but they cannot go in your household bin. \
@@ -35,7 +35,7 @@ st.write("_Compostable Plastic_: No. Compostable plastics are not intended for r
          local government to find out if there are any drop-off locations for your compostable plastic items.")
 st.write("_Biobased Plastics_: To determine what waste disposal options\
           are available for a biobased plastic item, \
-         it is necessary to read the product’s label as to its compostability and recyclability.")
+         it is necessary to read the product's label as to its compostability and recyclability.")
 st.header("Local recycling")
 df = pd.DataFrame(np.array([[],
                             [], 
