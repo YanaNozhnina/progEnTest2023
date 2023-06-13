@@ -26,13 +26,15 @@ df = pd.DataFrame(np.array([[56.83908653272441, 60.664743161437244],
                             [56.83864065320008, 60.64765229697966], 
                             [56.83217829989505, 60.69366639157996]]),
     columns=['lat', 'lon'])
-st.map(df, zoom=16)
-st.subheader("«СтеклоВторЕкб»")
-st.write("улица Студенческая, д.49 Бокс №13")
-st.write("Тел. +7 (922) 181-30-81")
-st.subheader("Приём стеклопосуды")
-st.write("ул. Гагарина, 47")
-st.write("Тел. +7 (950) 190-38-56")
-st.subheader("Пункт приема вторсырья")
-st.write("ул. 40 Лет ВЛКСМ, 12")
-st.write("Тел. +7 (908) 636-43-17")
+
+st.subheader("StekloVtorEkb")
+st.write("Studentskaya Street, 49 Box No. 13")
+st.write("+7 (922) 181-30-81")
+
+st.subheader("Recycling point")
+st.write("Gagarin Street, 47")
+st.write("+7 (950) 190-38-56")
+
+st.subheader("Recycling point")
+st.write("40 Years Komsomol Street, 12")
+st.write("+7 (908) 636-43-17")

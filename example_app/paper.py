@@ -32,13 +32,16 @@ df = pd.DataFrame(np.array([[56.850070937905315, 60.6438780875638],
                             [56.832288865260466, 60.694096869352244]]),
     columns=['lat', 'lon'])
 st.map(df, zoom=16)
-st.subheader("«Уралвторма»")
-st.write("ул. Высоцкого, 11")
-st.write("Тел. +7 (902) 874-99-50")
-st.write("ул. Академическая, 8А")
-st.write("Тел. +7 (904) 382-31-30")
-st.subheader("«Радон-с»")
-st.write("ул. Мамина-Сибиряка, 85")
-st.write("Тел. +7 (343) 350-02-45")
+
+st.subheader("«Uralvtorma»")
+st.write("Vysotsky Street, 11")
+st.write("+7 (902) 874-99-50")
+
+st.write("Akademicheskaya Street, 8А")
+st.write("+7 (904) 382-31-30")
+
+st.subheader("«Radon-s»")
+st.write("Mamina-Sibiryak Street, 85")
+st.write("+7 (343) 350-02-45")
 
 

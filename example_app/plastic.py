@@ -43,16 +43,16 @@ df = pd.DataFrame(np.array([[56.83855123705221, 60.64731955945884],
     columns=['lat', 'lon'])
 st.map(df, zoom=16)
 
-st.write("ул. Гагарина, 47")
-st.write("Тел. +7 (950) 190-38-56")
+st.write("Gagarina Street, 47")
+st.write("+7 (950) 190-38-56")
 
-st.subheader("ВТОРСИСТЕМА")
-st.write("ул. Луначарского, 171")
-st.write("Тел. +7 (343) 261-32-01")
+st.subheader("VTORSYSTEM")
+st.write("Lunacharsky Street, 171")
+st.write("+7 (343) 261-32-01")
 
-st.subheader("Перерабатывающая Компания ИП Снегирев А. В.")
-st.write("ул. Мамина-Сибиряка, 85")
-st.write("Тел. +7 (904) 983-93-31")
+st.subheader("IP Snegirev A.V.")
+st.write("Mamina-Sibiryak Street, 85")
+st.write("+7 (904) 983-93-31")
 
 st.subheader("N.B. What do the symbols mean on the bottom of plastic bottles and containers?")
 st.write("These symbols were created to identify the type of plastic used to make the container.\
