@@ -5,7 +5,7 @@ import numpy as np
 from st_pages import add_page_title
 
 add_page_title()
-st.subheader(":fire: + :hourglass_flowing_sand:")
+st.subheader("Fire :fire: + sand :hourglass_flowing_sand:")
 
 st.write("Glass, especially glass food and beverage containers,\
           can be recycled over and over again. \
@@ -22,18 +22,17 @@ st.subheader("Can I leave my metal bottle cap on my glass bottle when I recycle?
 st.write("No, metal bottle caps should be recycled separately from the glass bottles.")
 
 st.header("Local recycling")
-df = pd.DataFrame(np.array([[],
-                            [], 
-                            [],
-                            [],
-                            []]),
+df = pd.DataFrame(np.array([[56.83908653272441, 60.664743161437244],
+                            [56.83864065320008, 60.64765229697966], 
+                            [56.83217829989505, 60.69366639157996],]),
     columns=['lat', 'lon'])
 st.map(df)
-st.subheader("«Уралвторма»")
-st.write("ул. Высоцкого, 11")
-st.write("Тел. +7 (902) 874-99-50")
-st.write("ул. Академическая, 8А")
-st.write("Тел. +7 (904) 382-31-30")
-st.subheader("«Радон-с»")
-st.write("ул. Мамина-Сибиряка, 85")
-st.write("Тел. +7 (343) 350-02-45")
+st.subheader("«СтеклоВторЕкб»")
+st.write("улица Студенческая, д.49 Бокс №13")
+st.write("Тел. +7 (922) 181-30-81")
+st.subheader("Приём стеклопосуды")
+st.write("ул. Гагарина, 47")
+st.write("Тел. +7 (950) 190-38-56")
+st.subheader("Пункт приема вторсырья")
+st.write("ул. 40 Лет ВЛКСМ, 12")
+st.write("Тел. +7 (908) 636-43-17")
