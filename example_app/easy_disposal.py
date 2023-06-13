@@ -29,9 +29,9 @@ with col4:
 with col5:
    st.image("pictures/Рисунок6.jpg")
 with col6:
-   st.image("pictures/Рисунок7.jpg")
+   st.image("pictures/Рисунок7.png")
 with col7:
-   st.image("pictures/Рисунок8.png")
+   st.image("pictures/Рисунок8.jpg")
 with col8:
    st.image("pictures/Рисунок9.jpg")
 
@@ -88,4 +88,4 @@ st.write("•	If you often go shopping, you should buy a reusable bag.")
 st.write("•	Do not use disposable tableware.")
 st.write("•	If possible, take food and drinks in your own container.")
 
-st.title("Take care of the planet!")
+st.title("Take care of the :green[planet]!")
