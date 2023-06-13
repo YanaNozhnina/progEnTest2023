@@ -27,4 +27,4 @@ show_pages(
     ]
 )
 
-st.write("pictures/home_page.jpg")
+st.image("pictures/home_page.jpg")
