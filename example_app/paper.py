@@ -2,7 +2,8 @@ import streamlit as st
 
 from st_pages import add_page_title
 
-add_page_title("Your papers, please!")
+add_page_title()
+st.header("Your papers, please!")
 
 st.write("Paper makes up 23 percent of municipal solid waste (trash) \
          generated each year, more than any other material. \
