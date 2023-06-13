@@ -44,10 +44,11 @@ df = pd.DataFrame(np.array([[],
 st.map(df)
 
 st.write("Вишневая ул., 22Б")
-st.write("Тел. +7 (963) 853-12-66 \n")
-
+st.write("Тел. +7 (963) 853-12-66")
+st.write("")
 st.write("ул. 40-Летия Комсомола, 4")
-st.write("Тел. +7 (922) 206-84-28 \n")
+st.write("Тел. +7 (922) 206-84-28")
+st.write("")
 
 st.subheader("ООО «Втор-Элемент»")
 st.write("ул. Бетонщиков, 5")
@@ -58,4 +59,4 @@ st.write("These symbols were created to identify the type of plastic used to mak
           This can help you determine whether the item is recyclable by your local program.\
           The resin number is contained in a triangle that looks very similar to the recycling symbol.\
           However, this symbol does not necessarily mean it can be collected for recycling in your community.")
-st.image("pictures/code.jpg"")
+st.image("pictures/codes.jpg")
