@@ -1,5 +1,6 @@
 import io
 import streamlit as st
+import pandas as pd
 from PIL import Image
 import numpy as np
 from tensorflow.keras.applications import EfficientNetB0
@@ -132,6 +133,14 @@ def getContent_3(thingNameLst):
 	
 	return filteredData
 
+
+
+def showMap():
+	data = [56.8519, 60.6122]
+	df = pd.DataFrame(data,
+    columns=['lat', 'lon'])
+	st.map(df)
+
 def printDiyData(thingNameLst):
 	diyData = getContent_1(thingNameLst) + getContent_2(thingNameLst) + getContent_3(thingNameLst) 
 	if len(diyData) < 10:
@@ -155,6 +164,7 @@ def diyButton(img, model, candidateId): # Не используется
 		thingNameLst = classes[candidateId][1].split('_')
 		printDiyData(thingNameLst)
 		diyButton(img, model, candidateId)
+		showMap()
 	else:
 		st.write("sorry, don't know what it is.")
 
