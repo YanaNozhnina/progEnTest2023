@@ -10,11 +10,13 @@ from st_pages import Page, add_page_title, show_pages
 show_pages(
     [
         Page("example_app/streamlit_app.py", "Home", "🏠"),
+        Page("example_app/easy_disposal.py", "Proper disposal is easy!", "🌞"),
         Page("example_app/glass.py", "Glass", "🥛"),
         Page("example_app/metal.py", "Metal", "📎"),
         Page("example_app/paper.py", "Paper", "📰"),
         Page("example_app/plastic.py", "Plastic", "♲"),
         Page("example_app/other.py", "Other", "🗑"),
+        
     ]
 )
 
