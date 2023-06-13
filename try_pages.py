@@ -14,9 +14,7 @@ show_pages(
         Page("example_app/glass.py", "Glass", "🥛"),
         Page("example_app/metal.py", "Metal", "📎"),
         Page("example_app/paper.py", "Paper", "📰"),
-        Page("example_app/plastic.py", "Plastic", "♻️"),
-        Page("example_app/other.py", "Other", "🗑️"),
-        
+        Page("example_app/plastic.py", "Plastic", "♻️"),        
     ]
 )
 
