@@ -16,18 +16,17 @@ with st.container():
        st.image("pictures/Рисунок4.jpg")     
 
 with st.container():
-    col1_2, col_2, col3_2 = st.columns(3)
+    col1_2, col2_2, col3_2 = st.columns(3)
     with col1_2:
        st.write("•	Stores: M video, Eldorado, Leroy Merlin, Lenta.")
     with col2_2:
-       st.write("•	CBM of Complex solution of industrial waste problems \
-                (Engels St., 16, Alpinist St., 57 A).")
+       st.write("•	CBM of Complex solution of industrial waste problems (Engels St., 16, Alpinist St., 57 A).")
        st.write("•	Industrial Waste Safety Center")
     with col3_2:
        st.write("•	The company «Spetsavtokom».")
        st.write("•	The company LLC «TD Uralneftekhim» (Monterskaya str., 8).")
        st.write("•	ECOPROM LLC (Kosareva str., 91a).")
-       
+
     
 st.subheader("Rule No.2 Do not throw away clothes, shoes, toys, textiles, books")
 col4, col5, col6, col7, col8 = st.columns(5)
