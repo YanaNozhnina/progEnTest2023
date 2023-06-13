@@ -37,22 +37,22 @@ st.write("_Biobased Plastics_: To determine what waste disposal options\
           are available for a biobased plastic item, \
          it is necessary to read the product's label as to its compostability and recyclability.")
 st.header("Local recycling")
-df = pd.DataFrame(np.array([[],
-                            [], 
-                            []]),
+df = pd.DataFrame(np.array([[56.83855123705221, 60.64731955945884],
+                            [56.83472414413396, 60.623979144317644], 
+                            [56.846843692461, 60.615760582200394]]),
     columns=['lat', 'lon'])
-st.map(df)
+st.map(df, zoom=16)
 
-st.write("Вишневая ул., 22Б")
-st.write("Тел. +7 (963) 853-12-66")
-st.write("")
-st.write("ул. 40-Летия Комсомола, 4")
-st.write("Тел. +7 (922) 206-84-28")
-st.write("")
+st.write("ул. Гагарина, 47")
+st.write("Тел. +7 (950) 190-38-56")
 
-st.subheader("ООО «Втор-Элемент»")
-st.write("ул. Бетонщиков, 5")
-st.write("Тел. +7 (958) 137-87-48")
+st.subheader("ВТОРСИСТЕМА")
+st.write("ул. Луначарского, 171")
+st.write("Тел. +7 (343) 261-32-01")
+
+st.subheader("Перерабатывающая Компания ИП Снегирев А. В.")
+st.write("ул. Мамина-Сибиряка, 85")
+st.write("Тел. +7 (904) 983-93-31")
 
 st.subheader("N.B. What do the symbols mean on the bottom of plastic bottles and containers?")
 st.write("These symbols were created to identify the type of plastic used to make the container.\
