@@ -5,7 +5,6 @@ import numpy as np
 from st_pages import add_page_title
 
 add_page_title()
-st.subheader("Fire :fire: + sand :hourglass_flowing_sand:")
 
 st.write("In 2018, 19.2 million tons of ferrous metals (iron and steel) were generated.\
           EPA estimates that the recycling rate of ferrous metals from durable goods was 27.8 percent.\
